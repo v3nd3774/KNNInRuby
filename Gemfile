@@ -1,0 +1,7 @@
+gem 'pry', '~> 0.12.2'
+gem 'byebug', '~> 11.0'
+gem 'pry-byebug', '~> 3.7'
+gem 'daru'
+gem 'lurn', '~> 0.1.1'
+gem 'rspec'
+gem 'rspec_junit_formatter'
