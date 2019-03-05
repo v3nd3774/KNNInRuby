@@ -3,8 +3,9 @@ require 'daru'
 require 'lurn'
 describe V3ND3774::KNN do
   describe "#predict" do
-    let(:model_under_test) { V3ND3774::KNN.new 3 }
-    let(:reference_model) { Lurn::Neighbors::KNNClassifier.new 3 }
+    let(:k) {5}
+    let(:model_under_test) { V3ND3774::KNN.new k }
+    let(:reference_model) { Lurn::Neighbors::KNNClassifier.new k }
     let(:df) { Daru::DataFrame.from_csv("data/iris.data") }
     let(:resp) { df[4] }
     let(:preds) { df[0..3] }
