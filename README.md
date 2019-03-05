@@ -10,3 +10,6 @@ is accurate.
 
 ## Data source?
 Data used is from [**UC Irvine Machine Learning Repository Iris Dataset**](https://archive.ics.uci.edu/ml/datasets/Iris).
+
+## Gems used?
+Check the `Gemfile`.
