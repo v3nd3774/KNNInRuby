@@ -1,4 +1,3 @@
-require 'pry'
 require 'preconditions'
 module V3ND3774
   class KNNRegression
